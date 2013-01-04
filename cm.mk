@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := a13
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/Allwinner/a13/device.mk)
+$(call inherit-product, device/allwinner/a13/device.mk)
 
 TARGET_BOOTANIMATION_NAME := vertical-480x800
 
