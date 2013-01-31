@@ -13,17 +13,10 @@ int device_handle_key(int key_code, int visible) {
     if (visible) {
         switch (key_code) {
 	    case 25:
-	    case 217:
-	    case 72:
-	    case 114:  
             case KEY_DOWN:
                 return HIGHLIGHT_DOWN;
 
 	    case 24:
-	    case 28:
-	    case 73:  
-	    case 139:
-	    case 115:
             case KEY_UP:
                 return HIGHLIGHT_UP;
 
@@ -33,8 +26,6 @@ int device_handle_key(int key_code, int visible) {
                 return SELECT_ITEM;
             
 	    case 66:
-	    case 158:
-	    case 102:  
 	    case KEY_1:
             case KEY_ESC:
                 if (!ui_root_menu) {
