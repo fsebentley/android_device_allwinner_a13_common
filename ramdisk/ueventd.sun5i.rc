@@ -32,10 +32,3 @@
 /dev/ecompass_ctrl        0777   system     system
 /dev/gps                  0777   system     system
 /dev/mxc622x              0777   system     system
-
-# sysfs properties, for mma7660 gsensor
-/sys/devices/virtual/input/input*   name        0660  root   input
-/sys/devices/virtual/input/input*   max         0660  root   input
-/sys/devices/virtual/input/input*   min         0660  root   input
-/sys/devices/virtual/input/input*   poll        0666  root   input
-

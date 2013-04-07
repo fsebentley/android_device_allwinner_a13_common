@@ -46,7 +46,7 @@ service erase_misc /sbin/sh -c "dd if=/dev/zero count=1 | tr '\000' '\377' > /de
 service recovery /sbin/recovery
 
 service adbd /sbin/adbd recovery
-    disabled
+    enabled
 
 # Always start adbd on userdebug and eng builds
 # In recovery, always run adbd as root.

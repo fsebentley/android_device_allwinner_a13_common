@@ -8,4 +8,4 @@
 /sdcard		vfat	/dev/block/mmcblk0p1        /dev/block/mmcblk0
 /system		ext4	/dev/block/nandd
 /sd-ext		auto	/dev/block/mmcblk0p2
-/emmc		vfat	/dev/block/nandi
+/emmc		vfat	/dev/block/nandj
